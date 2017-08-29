@@ -1,0 +1,19 @@
+TARGETNAME=sudoku
+TARGETPATH=obj
+TARGETTYPE=PROGRAM
+UMTYPE=console
+UMENTRY=main
+
+SOURCES= entry.c engine.c 
+
+INCLUDES=$(INCLUDES);..\..\net\inc
+
+C_DEFINES=$(C_DEFINES)  /O2 /Oi /SUBSYSTEM:CONSOLE
+
+USE_MSVCRT=1
+
+TARGETLIBS=$(TARGETLIBS)\
+           $(SDK_LIB_PATH)\shlwapi.lib \
+           $(SDK_LIB_PATH)\kernel32.lib 
+
+
