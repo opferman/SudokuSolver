@@ -2,7 +2,7 @@ TARGETNAME=sudoku
 TARGETPATH=obj
 TARGETTYPE=PROGRAM
 UMTYPE=console
-UMENTRY=main
+UMENTRY=main 
 
 SOURCES= entry.c engine.c 
 
