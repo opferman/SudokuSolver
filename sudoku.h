@@ -18,7 +18,7 @@ typedef PVOID HSUDOKU;
 #define FS_PRIORITY_NUM_COMPLETED_NODES       0x0
 #define FS_PRIORITY_MASK 0xC
 
-HSUDOKU Sudoku_Init(ULONG *pSudokuTable, ULONG Flags);
+HSUDOKU Sudoku_Init(ULONG *pSudokuTable, ULONG Flags); 
 BOOL Sudoku_Solve(HSUDOKU hSudoku);
 void Sudoku_Free(HSUDOKU hSudoku);
 void Sudoku_Debug_Console_Display(HSUDOKU hSudoku);

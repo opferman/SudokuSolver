@@ -3073,3 +3073,4 @@ void Sudoku_UpdateContextPriority(PINTERNAL_SUDOKU pSudoku)
              pSudoku->Priority = pSudoku->NumberOfCompletedNodes;
     }
 }
+ 

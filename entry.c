@@ -189,6 +189,6 @@ int _cdecl main(int argc, char **argv)
         Sudoku_Free(hSudoku);
     }
 
-    return 0;
+    return 0; 
 }
 
